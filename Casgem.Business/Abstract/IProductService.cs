@@ -4,5 +4,5 @@ namespace Casgem.Business.Abstract;
 
 public interface IProductService : IGenericService<Product>
 {
-
+    List<Product> GetProductWithCategoriesList();
 }
